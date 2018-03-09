@@ -1,0 +1,68 @@
+RewriteEngine on
+
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ http://jackandjilllunchorders.com/$1 [R,L]
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^index$ index.php
+RewriteRule ^about-us$ about-us.php
+RewriteRule ^terms-and-conditions$ terms.php
+RewriteRule ^add-student$ add-student.php
+RewriteRule ^add-student/([0-9]+)$ add-student.php?id=$1
+RewriteRule ^cart$ cart.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^dashboard$ dashboard.php
+RewriteRule ^my-profile-notifications$ my-profile-notification.php
+RewriteRule ^my-profile-security$ my-profile-security.php
+RewriteRule ^my-profile$ my-profile.php
+RewriteRule ^my-wallet$ my-wallet.php
+RewriteRule ^my-address$ my-address.php
+
+RewriteRule ^order-confirmation$ order-confirmation.php
+
+RewriteRule ^subscription-confirmation$ subscription-confirmation.php
+
+RewriteRule ^orders$ orders.php
+RewriteRule ^orders/([0-9]+)$ orders.php?p=$1
+
+RewriteRule ^subscriptions$ subscriptions.php
+RewriteRule ^subscriptions/([0-9]+)$ subscriptions.php?p=$1
+
+RewriteRule ^product-details$ product-detailpg.php
+RewriteRule ^product-details/([0-9]+)/([A-Z]+)$ product-detailpg.php?pid=$1&selector=$2
+
+RewriteRule ^meal-deal/([0-9]+)/([A-Z]+)$ mealdeal.php?pid=$1&selector=$2
+
+RewriteRule ^products-list$ products-list.php
+RewriteRule ^products-list/clear$ products-list.php?clear=1
+RewriteRule ^products-list/mt/([A-Z]+)$ products-list.php?mt=$1
+RewriteRule ^products-list/search/([\S]+)/sort/([\S]+)$ products-list.php?xname=$1&sort=$2
+
+RewriteRule ^sign-in$ sign-in.php
+RewriteRule ^sign-up$ sign-up.php
+RewriteRule ^student-listing$ student-listing.php
+RewriteRule ^student-listing/del/([0-9]+)$ student-listing.php?del=$1
+RewriteRule ^student-listing/p/([0-9]+)/sort/([\S]+)/name/([\S]+)$ student-listing.php?p=$1&sort=$2&xname=$3
+
+RewriteRule ^subscription-plan$ subscription-plan.php
+
+RewriteRule ^cart-to-subscription$ cart-to-subscription.php
+
+RewriteRule ^offline-ordering/([0-9]+)$ offline-ordering.php?student=$1
+RewriteRule ^offline-ordering$ offline-ordering.php
+
+RewriteRule ^print-invoice/([\S]+)$ print-invoice.php?invoice=$1
+
+RewriteRule ^privacy-policy$ privacy-policy.php
+
+RewriteRule ^order-for-student/([0-9]+)$ order-for-student.php?id=$1
+
+RewriteRule ^apps$ app
+
+RewriteRule ^refund-policy$ termsfeed-return-refund-policy.php
+
+RewriteRule ^delivery-policy$ delivery-policy.php

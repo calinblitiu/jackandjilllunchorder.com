@@ -1,0 +1,6 @@
+[07-Mar-2018 08:11:27 UTC] PHP Notice:  Undefined variable: g_docRoot in /home/jackandjil/public_html/classes/products.php on line 2
+[07-Mar-2018 08:11:27 UTC] PHP Warning:  require_once(classes/generic-table.php): failed to open stream: No such file or directory in /home/jackandjil/public_html/classes/products.php on line 2
+[07-Mar-2018 08:11:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/generic-table.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jackandjil/public_html/classes/products.php on line 2
+[07-Mar-2018 08:11:44 UTC] PHP Notice:  Undefined variable: g_docRoot in /home/jackandjil/public_html/classes/products.php on line 2
+[07-Mar-2018 08:11:44 UTC] PHP Warning:  require_once(classes/generic-table.php): failed to open stream: No such file or directory in /home/jackandjil/public_html/classes/products.php on line 2
+[07-Mar-2018 08:11:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/generic-table.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jackandjil/public_html/classes/products.php on line 2

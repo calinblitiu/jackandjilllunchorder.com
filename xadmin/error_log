@@ -1,0 +1,5 @@
+[26-Jan-2018 03:56:53 UTC] PHP Fatal error:  require_once(): Failed opening required '	/home/c04uqiu0/jackandjill.com.au/components/admin-header.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/c04uqiu0/jackandjill.com.au/xadmin/index.php on line 29
+[17-Feb-2018 11:18:44 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/c04uqiu0/jackandjill.com.au/classes/PDOLib/Database.php on line 72
+[17-Feb-2018 11:38:48 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/c04uqiu0/jackandjill.com.au/classes/PDOLib/Database.php on line 72
+[17-Feb-2018 11:38:58 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/c04uqiu0/jackandjill.com.au/classes/PDOLib/Database.php on line 72
+[17-Feb-2018 12:47:38 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/c04uqiu0/jackandjill.com.au/classes/PDOLib/Database.php on line 72

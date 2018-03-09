@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,800italic,300" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<title>Jack & Jill</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/util.carousel.css" />
+<link rel="stylesheet" href="css/util.carousel.skins.css" />
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/easy-responsive-tabs.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="css/menumaker.css">
+<link href="css/style.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="logo"> <a href="#"><img src="images/logo.jpg"></a> </div>
+      </div>
+      <!--col-lg-4-->
+      
+      <div class="col-lg-8 col-md-8 col-sm-8	">
+        <div class="head-right">
+          <div class="register-links"> 
+            <!--<a href="#"><img src="images/user-icon.png"> Register</a>
+                                                        <a href="#">Sign in</a>     --> 
+           <!-- <a href="#"><span><img src="images/my-profile_img.jpg" ></span>Welcome John</a> <a href="#" class="nav_wallt">Wallet <span>($280 )</span></a> -->
+            
+            <div id="cssmenu">
+            <ul>
+            <li><a href="#"><img src="images/user-icon.png"> Register</a></li> 
+            <li><a href="#">Sign in</a></li>   
+            
+	<!--<ul>
+		<li><a href="#"><img src="images/dashboard_icon.png"></a></li>        
+		<li class="has-sub"><span class="submenu-button"></span>
+			<a href="#"><span><img src="images/my-profile_img.jpg" ></span>Welcome John</a>
+			<ul>
+				<li><a href="#">My Profile</a></li>
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</li>
+		<li> <a href="#"><img src="images/top_carticon.png"> Cart <span>(8)</span></a></li>
+		<li><a href="#" class="nav_wallt">Wallet <span>($280 )</span></a> </li>
+	</ul>-->
+</div>
+            
+            </div>
+          <div class="menu">
+            <nav class="navbar navbar-default"> 
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <!--    <a class="navbar-brand" href="#">Brand</a>--> 
+              </div>
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Subscription Plan</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">About Us</a></li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse --> 
+            </nav>
+          </div>
+        </div>
+        <!--head-right--> 
+      </div>
+      <!--col-lg-4--> 
+    </div>
+    <!--row--> 
+  </div>
+  <!--container--> 
+</header>
+    
+    
+    <section class="main_slider">
+    			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/slide1.jpg" alt="">
+              <div class="container">
+                  <div class="carousel-caption"> <h1>Will rotate the term specials. </h1>  <h2>Promote subscription ordering, meal deals, 
+            recess and lunch orders</h2>
+                  </div>
+              </div>
+    </div>
+
+    <div class="item">
+     <img src="images/slide2.jpg" alt="">
+           <div class="container"><div class="carousel-caption"> <h1>Will rotate the term specials. </h1>  <h2>Promote subscription ordering, meal deals, 
+    recess and lunch orders</h2>
+          </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/slide3.jpg" alt="">
+          <div class="container">
+               <div class="carousel-caption"> <h1>Will rotate the term specials. </h1>  <h2>Promote subscription ordering, meal deals, 
+        recess and lunch orders</h2>
+              </div>
+      </div>
+  </div>
+ 
+
+  <!-- Left and right controls -->
+ <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>-->
+</div>
+    </section>
+    
+    
+    <section class="wlcm">
+		<div class="container">
+        		<div class="main_title"><h2>Welcome to Jack-Jill</h2></div>
+                
+                <div class="welcm-txt">
+                		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                </div>
+                
+                <div class="srch-meals">
+                		<form>
+                        		<input type="text" placeholder="Search Your Meal" >
+                                <button type="submit"  class="gobtn">Go</button>
+                        </form>
+                </div>
+        
+        </div>    
+    </section>
+    
+    <section class="our_srvcs">
+            <div class="container">
+                		<div class="lft_titlmarg">
+                        <div class="row">
+                        			<div class="col-lg-3 col-md-3 col-sm-4">
+                                    			<div class="lft_title">
+                                                		<h2>Our Services -</h2>
+                                                </div>                                    
+                                    </div>
+                                    
+                                    <div class="col-lg-9 col-md-9 col-sm-8">
+                                    			<div class="srvc_info">
+                                                		<p>Priced between $1-$5 so everyone can afford to have a lunch order. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                                </div>                                    
+                                    </div>
+                        
+                        </div><!--row-->
+                        
+                        </div>
+                        
+                        			<div class="srvc-crosl">
+                                    			<div id="normal-imglist" class="util-carousel normal-imglist">
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc1.jpg">
+                                                                        <div class="srvc_dtlcontt"><h4>Book Recess Online</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc2.jpg">
+                                                                         <div class="srvc_dtlcontt"> <h4>Book Lunch Online</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc3.jpg">
+                                                                        <div class="srvc_dtlcontt">  <h4>Pre book weekly orders for the term</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc4.jpg">
+                                                                         <div class="srvc_dtlcontt"> <h4>Pay with e-Wallet, Eway or Cash</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                               <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc1.jpg">
+                                                                        <div class="srvc_dtlcontt"><h4>Book Recess Online</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc2.jpg">
+                                                                         <div class="srvc_dtlcontt"> <h4>Book Lunch Online</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc3.jpg">
+                                                                        <div class="srvc_dtlcontt">  <h4>Pre book weekly orders for the term</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                                <div class="item">
+                                                    <a href="#">
+                                                                   <div class="srvc_dtl">
+                                                                            <img src="images/srvc4.jpg">
+                                                                         <div class="srvc_dtlcontt"> <h4>Pay with e-Wallet, Eway or Cash</h4></div>
+                                                                </div>
+                                                    </a>
+                                                </div><!--item-->
+                                                
+                                        </div>
+                                    
+                                    </div>
+                                        
+                        <div class="all_srvc"><a href="#">All Services</a></div>
+                    
+             </div>  
+    </section>
+    
+     
+    <section class="hmcount-bg">
+     	<div class="container">    
+                    
+                    	<div class="wrapper">
+    <div class="counter col_fifth">
+      <h2 class="timer count-title count-number" data-to="1000" data-speed="1500"></h2>
+       <p class="count-text ">SomeText GoesHere</p>
+    </div>
+
+    <div class="counter col_fifth">
+      <h2 class="timer count-title count-number" data-to="988" data-speed="1500"></h2>
+      <p class="count-text ">SomeText GoesHere</p>
+    </div>
+
+    <div class="counter col_fifth">
+      <h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
+      <p class="count-text ">SomeText GoesHere</p>
+    </div>
+    
+       <div class="counter col_fifth">
+      <h2 class="timer count-title count-number" data-to="1800" data-speed="1500"></h2>
+      <p class="count-text ">SomeText GoesHere</p>
+    </div>
+
+    <div class="counter col_fifth end">
+      <h2 class="timer count-title count-number" data-to="250" data-speed="1500"></h2>
+      <p class="count-text ">SomeText GoesHere</p>
+    </div>
+</div>
+        
+        
+    	 </div><!--container-->   
+   
+    </section>
+    
+    <section class="our_meals">
+            <div class="container">
+                		<div class="lft_titlmarg">
+                            <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-4">
+                                                    <div class="lft_title">
+                                                            <h2>Our Meals -</h2>
+                                                    </div>                                    
+                                        </div>
+                                        
+                                        <div class="col-lg-9 col-md-9 col-sm-8">
+                                                    <div class="srvc_info">
+                                                            <p>With the menu prices ranging between $1 to $5, everyone can afford to have a recess and lunch order. Items are updated each
+                               School Term so keep and eye out for new fun and yummy items for children and staff !</p>
+                                                    </div>                                    
+                                        </div>
+                            
+                            </div><!--row-->
+                        </div>
+                        
+                        			
+                        <div class="row">
+                       				 <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m1.jpg">
+                                                                    <h4>French Fries</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m2.jpg">
+                                                                    <h4>Apples</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m3.jpg">
+                                                                    <h4>Muffins</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m4.jpg">
+                                                                    <h4>Cheese Stics</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m5.jpg">
+                                                                    <h4>Burgers</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m6.jpg">
+                                                                    <h4>Choclate Milks</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m7.jpg">
+                                                                    <h4>Shakes</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                                    
+                                     <div class="col-lg-3 col-md-3 col-sm-4">
+                        						<div class="meals_info">
+                                                			<a href="#"><div class="meals_img">
+                                                            		<img src="images/m8.jpg">
+                                                                    <h4>Barries</h4>
+                                                            </div></a>
+                                                            <div class="meals_dtl">
+                                                            		Lorem Ipsum is Simple Dummy Text.
+                                                            </div>                                                
+                                                </div>
+                        			</div><!--col-lg-3 col-md-3 col-sm-4-->
+                                    
+                        </div>    <!--row-->            
+                       
+                    
+             </div>  
+    </section>
+    
+    
+    <section class="client-says">
+		<div class="container"> 
+    					<div class="hm_title">
+                        		<h2>Our Clients’ Words</h2>
+                        </div>
+                        
+                        <div class="row">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel"> 
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner"> 
+          
+          <!-- Quote 1 -->
+          <div class="item active">
+      
+              <div class="row">
+               
+             <div class="col-sm-12">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b een the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                  <small>Alizeh, Corsica</small> </div>
+              </div>
+            
+          </div>
+          <div class="item">
+            
+              <div class="row">
+               
+              <div class="col-sm-12">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b een the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting. </p>
+                  <small>Alizeh, Corsica</small> </div>
+              </div>
+            
+          </div>
+          <div class="item">
+            
+              <div class="row">
+             
+          <div class="col-sm-12">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b een the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting. </p>
+                  <small>Alizeh, Corsica</small> </div>
+              </div>
+            
+          </div>
+          
+          <div class="item">
+            
+              <div class="row">
+                         <div class="col-sm-12">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b een the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting. </p>
+                  <small>Alizeh, Corsica</small> </div>
+              </div>
+            
+          </div>
+          
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev --> 
+       <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>-->
+      </div>
+    </div>
+                        
+                        
+        </div>    
+    </section>
+    
+    <footer>
+    		<div class="container">
+            		<div class="row">
+                 			<div class="col-lg-3 resize">
+                            		   <div class="fotr_links">
+                                            <h4>Site Links</h4>
+                                            <ul>
+                                                    <li><a href="#"> Home</a></li>
+                                                    <li><a href="#">About Us</a></li>
+                                                    <li><a href="#">Terms & Conditions</a></li>
+                                                    <li><a href="#">Privacy Policy</a></li>
+                                                    <li><a href="#">Contact Us</a></li>              
+                                                </ul>                    
+                        				</div><!--fotr_links-->
+                            </div><!--col-lg-3-->
+                            
+                            <div class="col-lg-3 resize">
+                            		   <div class="fotr_links">
+                                            <h4>Order Pages</h4>
+                                            <ul>
+                                                    <li><a href="#">Signup/Login</a></li>
+                                                    <li><a href="#">Menu</a></li>
+                                                    <li><a href="#">Subscription Ordering</a></li>                  
+                                                </ul>                    
+                        				</div><!--fotr_links-->
+                            </div><!--col-lg-3-->
+                            
+                            
+                            <div class="col-lg-3 resize">
+                            		   <div class="fotr_links">
+                                            <h4>Customer Info</h4>
+                                            <ul>
+                                                  <li><a href="#">Signup/Login</a></li>
+                                                    <li><a href="#">My Account</a></li>
+                                                    <li><a href="#">Newsletter</a></li>                    
+                                                </ul>                    
+                        				</div><!--fotr_links-->
+                            </div><!--col-lg-3-->
+                            
+                            <div class="col-lg-3 resize">
+                            		   <div class="fotr_links">
+                                            <h4>Newsletter</h4>
+                                          <div class="news_letrform">
+                                          		<form>
+                                                		<input type="text" placeholder="Enter Your Email ID">
+                                                        <button type="submit">subscribe</button>
+                                                </form>
+                                          </div>    
+                        				</div><!--fotr_links-->
+                            </div><!--col-lg-3-->
+                            
+                            <div class="col-lg-3 resize">
+                            		   <div class="fotr_links">
+                                            <h4>Contact us</h4>
+                                            	<div class="fotr_eml"><a href="mailto:orders@jackandjill.com.au">orders@jackandjill.com.au</a></div>
+                                            <div class="social_links">
+                                            		<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                            </div>      
+                                            <div class="copy_rights">@ 2017. All rights reserved. 
+Privacy Policy</div>       
+                        				</div><!--fotr_links-->
+                            </div><!--col-lg-3-->
+            		</div>
+            </div>
+    
+    </footer>
+    
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+
+<script src="js/jquery.utilcarousel.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+
+<script src="js/menumaker.js"></script>
+<script type="text/javascript">
+	$("#cssmenu").menumaker({
+		title: "",
+		format: "multitoggle"
+	});
+</script>
+
+
+ <script src="js/bootstrap-datepicker.min.js"></script>
+    
+    
+    <script>
+		$('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+    startDate: '-3d'
+});
+	</script>
+    
+   
+      <script src="js/jquery.nice-select.min.js"></script>
+      
+         <script>
+      		$(document).ready(function() {
+  $('select').niceSelect();
+});
+      
+      </script>
+    
+    
+<script>
+			$(function() {
+				
+				$('#normal-imglist').utilCarousel({
+					pagination : false,
+					navigationText : ['<i class="icon-left-open-big"></i>', '<i class=" icon-right-open-big"></i>'],
+						breakPoints : [[1920, 4], [1200, 4], [992, 2], [860, 2], [767, 1], [480, 1]],
+					navigation : true,
+					rewind : false,
+					autoPlay : true 
+				});
+				
+			});
+		</script> 
+        
+        <script src="js/easy-responsive-tabs.js"></script> 
+<script>
+$(document).ready(function () {
+$('#horizontalTab').easyResponsiveTabs({
+type: 'default', //Types: default, vertical, accordion           
+width: 'auto', //auto or any width like 600px
+fit: true,   // 100% fit in a container
+closed: 'accordion', // Start closed if in accordion view
+activate: function(event) { // Callback function if tab is switched
+var $tab = $(this);
+var $info = $('#tabInfo');
+var $name = $('span', $info);
+$name.text($tab.text());
+$info.show();
+}
+});
+});
+
+</script> 
+
+<script src="js/count.js"></script> 
+<script>(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2")})(document,window,0);</script> 
+<script src="js/custom-file-input.js"></script>
+
+
+
+</body>
+</html>

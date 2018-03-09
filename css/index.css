@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Open+Sans|Dosis:400,600');
+
+/*
+font-family: 'Bubblegum Sans', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+For examples of how fonts can be added to webpage
+*/
+
+
+
+.filtr-item {
+    padding:auto;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+/* Filter controls */
+
+.simplefilter {
+	margin: 30px 0 50px 0;
+	padding: 13px 30px;
+	background: #EAEAEA;
+}
+
+
+.simplefilter li, .multifilter li, .sortandshuffle li {
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 6px 20px;
+	border-radius: 35px;
+	margin-right: 20px;
+	margin-bottom: 16px;
+}
+.simplefilter li {
+	background-color: #fff;
+	transition: all 0.4s ease;
+	color: #777;
+	font-family: 'Bubblegum Sans', cursive;
+}
+.simplefilter li.active, .simplefilter li:hover  {
+	background-color: #0096D5;
+	color: #fff;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+
+/* Shuffle and sort controls */
+select {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+}
+.sortandshuffle .shuffle-btn {
+    background-color: #dec800;
+}
+.sortandshuffle .sort-btn {
+    background-color: #de0000;
+}
+.sortandshuffle .sort-btn.active {
+    background-color: #9d0000;
+}
+
+/* Search control */
+.search-row {
+    margin-left: 2.5rem;
+}
+.filtr-search {
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+
+
